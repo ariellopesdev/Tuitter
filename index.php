@@ -2,6 +2,7 @@
 
 <head>
     <title>Tuitter: Welcome to the new world!</title>
+    <meta charset="utf-8">
     <link href="styles.css" rel="stylesheet" />
 </head>
 
@@ -20,17 +21,20 @@
                     <input type="password" name="password" size="15" maxlength="40">
                 </p>
                 <p><input class="submit" type="submit" name="subscribe" value="Submit"></p>
-                <p><a href="Login/Uptade Password - Tuitter.html">Forgot password?</a></p>
-                <p>New here?<a href="Login/Create Account - Tuitter.html"> Create your account</a></p>
+                <p><a href="Login/Uptade Password - Tuitter.php">Forgot password?</a></p>
+                <p>New here?<a href="Login/Create Account - Tuitter.php"> Create your account</a></p>
             </form>
         </div>
     </div>
     <div class="refIndexBlock">
-        <p class="refIndex"><a href="About us/About us - Tuitter.html">About us</a></p>
-        <p class="refIndex"><a href="Contact us/Contact us - Tuitter.html">Contact us</a></p>
-        <p class="refIndex"><a href="Work with us/Work with us - Tuitter.html">Work with us</a></p>
-        <p class="refIndex"><a href="Partner Companies/Partner Companies - Tuitter.html">Partner Companies</a></p>
+        <p class="refIndex"><a href="About us/About us - Tuitter.php">About us</a></p>
+        <p class="refIndex"><a href="Contact us/Contact us - Tuitter.php">Contact us</a></p>
+        <p class="refIndex"><a href="Work with us/Work with us - Tuitter.php">Work with us</a></p>
+        <p class="refIndex"><a href="Partner Companies/Partner Companies - Tuitter.php">Partner Companies</a></p>
     </div>
+    <?php
+        echo "Hello World";
+    ?>
 
 </body>
 

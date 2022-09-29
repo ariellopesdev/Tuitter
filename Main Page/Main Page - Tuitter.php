@@ -17,11 +17,11 @@
         <h2>Log Out</h2>
         <h2>Delete Account</h2>
         <div class="refIndexBlock">
-            <p class="refIndex"><a href="../About us/About us - Tuitter.html">About us</a></p>
-            <p class="refIndex"><a href="../Contact us/Contact us - Tuitter.html">Contact us</a></p>
-            <p class="refIndex"><a href="../Work with us/Work with us - Tuitter.html">Work with us</a></p>
-            <p class="refIndex"><a href="../Partner Companies/Partner Companies - Tuitter.html">Partner Companies</a></p>
-            <p class="refIndex"><a href="../index.html">Get back to main page</a></p>
+            <p class="refIndex"><a href="../About us/About us - Tuitter.php">About us</a></p>
+            <p class="refIndex"><a href="../Contact us/Contact us - Tuitter.php">Contact us</a></p>
+            <p class="refIndex"><a href="../Work with us/Work with us - Tuitter.php">Work with us</a></p>
+            <p class="refIndex"><a href="../Partner Companies/Partner Companies - Tuitter.php">Partner Companies</a></p>
+            <p class="refIndex"><a href="../index.php">Get back to main page</a></p>
         </div>
     </body>
 </html>
