@@ -1,192 +1,191 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
 }
 
-body {
-    background-color: rgb(245, 245, 245);
+/**Boot CSS**/
+
+.center {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.w60 {
+    padding: 0 8% 0% 10%;
+    width: 60%;
+}
+
+.w40 {
+    padding: 0 0 0 0;
+    width: 40%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/**Estilização**/
+
+section div.logo-introduce {
     height: 100%;
     display: flex;
-    flex-direction: column;
-}
-
-.logoLogin {
-    height: 1200px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 
-.logoIntroduce {
-    height: 370px;
-    width: 450px;
+section div.text {
+    height: 30%;
+}
+
+section div.logo-introduce h1 {
+    font-weight: bolder;
+    font-size: 65px;
+    color: blue;
+    text-align: left;
+}
+
+section div.logo-introduce p {
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    text-align: justify;
+    height: 90px;
+}
+
+section div.formulary {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+section div.formulary form {
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-.logo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 60px;
-    width: 400px;
-    text-align: left;
-    color: rgb(67, 67, 255);
-}
-
-.introduceSocial {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    width: 100%;
-    text-align: justify;
-    color: rgb(71, 71, 71);
-}
-
-.loginMainPage {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: white;
-    filter: drop-shadow(0vh 1vh 1vh gray);
-    border: 5px rgb(253, 253, 253);
-    border-radius: 10px;
-    width: 420px;
-    height: 340px;
-    font-size: x-large;
-    display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
+    filter: drop-shadow(0vh 1vh 1vh gray);
 }
 
-.emailPass {
-    font-size: large;
-    width: 390px;
-    height: 50px;
-    border: 0.1px solid rgb(216, 213, 213);
+section div.formulary form .email {
+    font-size: 18px;
+    height: 15%;
+    width: 90%;
+    margin: 3% 5% 3% 5%;
+    padding: 5%;
+    background-color: white;
+    border: 1px solid rgb(197, 197, 197);
     border-radius: 5px;
-    padding-left: 30px;
-    caret-color: rgb(67, 67, 255);
-    outline-color: rgb(67, 67, 255);
+    caret-color: rgb(68, 68, 253);
+    outline-color: rgb(68, 68, 253);
 }
 
-.emailPass,
-#horizLine,
-.submitSubscribe,
-.submitCreate,
-.passwordIndex {
-    margin: 10px;
-}
-
-.passwordIndex {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    color: rgb(67, 67, 255);
-    text-decoration: none;
-}
-
-.passwordIndex:hover {
-    text-decoration: underline;
-}
-
-#horizLine {
-    border: 0.1px solid rgb(216, 213, 213);
-}
-
-.submitSubscribe {
-    background-color: rgb(67, 67, 255);
-    width: 390px;
-    height: 45px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+section div.formulary form input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    border-radius: 5px;
-    border: none;
+    font: bolder;
     color: white;
+    height: 13%;
+    width: 90%;
+    margin: 2%;
+    background-color: rgb(68, 68, 253);
+    border: none;
+    border-radius: 5px;
 }
 
-.submitSubscribe:hover {
+section div.formulary form input[type=submit]:hover {
     background-color: rgb(27, 27, 255);
     cursor: pointer;
 }
 
-.submitCreate {
-    background-color: rgb(33, 160, 50);
-    width: 195px;
-    height: 45px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    border-radius: 5px;
-    border: none;
-    color: white;
-}
-
-.submitCreate:hover {
-    background-color: rgb(28, 129, 41);
-    cursor: pointer;
-}
-
-
-.refIndex {
-    display: inline;
-    padding: 0px 30px 0px 30px;
-    color: rgb(163, 163, 163);
+section div.formulary form a {
+    background-color: white;
+    font-size: 15px;
     text-decoration: none;
+    color: blue;
+    height: 5%;
+    margin: 2% 2% 5% 2%;
+    text-align: center;
+    align-items: center;
 }
 
-.refIndex:hover {
+section div.formulary form a:hover {
     text-decoration: underline;
 }
 
-.refIndex:visited {
-    color: rgb(163, 163, 163);
+section div.formulary form a:visited {
     text-decoration: none;
 }
 
-.refIndexBlock {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-    margin: 0 auto;
-    height: 50px;
-    text-align: center;
+section div.formulary form p {
+    border: 0.1px solid rgb(197, 197, 197);
+    width: 95%;
+}
+
+section div.formulary form input[type=button] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font: bolder;
+    color: white;
+    background-color: rgb(39, 192, 60);
+    height: 15%;
+    margin: 5% 2% 2% 2%;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section div.formulary form input[type=button]:hover {
+    background-color: rgb(35, 172, 53);
+    cursor: pointer;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+}
+
+footer ul {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 
+footer li {
+    display: inline;
+    padding: 1% 3%;
+}
 
-.refIndexBlockTitle {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xx-large;
-    color: blue;
-    margin: 0 auto;
-    height: 50px;
-    line-height: 40px;
+footer div a {
+    font-size: 18px;
+    font: bolder;
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+}
+
+footer div a:visited {
+    text-decoration: none;
+}
+
+footer p {
+    font: 300;
+    font-size: 12px;
     text-align: center;
-    padding: 0px 30px 0px 30px;
-}
-
-#createAccount {
-    background-color: aquamarine;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-    margin: 0 auto;
-    height: 500px;
-    width: 600px;
-    text-align: center;
-    display: block;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-h1 {
-    background-color: aqua;
-    margin: 0;
-    padding: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
-h2 {
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align: left;
 }
