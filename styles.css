@@ -34,8 +34,8 @@ body {
 }
 
 .introduceSocial {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
     width: 100%;
     text-align: justify;
     color: rgb(71, 71, 71);
@@ -133,7 +133,8 @@ body {
 .refIndex:hover {
     text-decoration: underline;
 }
-.refIndex:visited{
+
+.refIndex:visited {
     color: rgb(163, 163, 163);
     text-decoration: none;
 }
