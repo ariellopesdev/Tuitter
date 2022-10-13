@@ -19,7 +19,7 @@
 }
 
 .w40 {
-    padding: 0 0 0 0;
+    margin: auto;
     width: 40%;
 }
 
@@ -56,9 +56,9 @@ section div.logo-introduce h1 {
 
 section div.logo-introduce p {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     color: black;
-    text-align: justify;
+    text-align: left;
     height: 90px;
 }
 
@@ -69,8 +69,8 @@ section div.formulary {
 }
 
 section div.formulary form {
-    width: 70%;
-    height: 60%;
+    width: 400px;
+    height: 380px;
     background-color: white;
     border-radius: 8px;
     display: flex;
@@ -81,11 +81,12 @@ section div.formulary form {
 }
 
 section div.formulary form .email {
-    font-size: 18px;
-    height: 15%;
-    width: 90%;
-    margin: 3% 5% 3% 5%;
-    padding: 5%;
+    font-size: 20px;
+    height: 55px;
+    width: 365px;
+    margin: 15px;
+    margin-bottom: 0px;
+    padding: 20px;
     background-color: white;
     border: 1px solid rgb(197, 197, 197);
     border-radius: 5px;
@@ -98,9 +99,9 @@ section div.formulary form input[type=submit] {
     font-size: 25px;
     font: bolder;
     color: white;
-    height: 13%;
-    width: 90%;
-    margin: 2%;
+    height: 48px;
+    width: 365px;
+    margin: 15px;
     background-color: rgb(68, 68, 253);
     border: none;
     border-radius: 5px;
@@ -116,8 +117,9 @@ section div.formulary form a {
     font-size: 15px;
     text-decoration: none;
     color: blue;
-    height: 5%;
-    margin: 2% 2% 5% 2%;
+    height: 25px;
+    line-height: 25px;
+    margin: 8px 12px 15px 12px;
     text-align: center;
     align-items: center;
 }
@@ -132,7 +134,7 @@ section div.formulary form a:visited {
 
 section div.formulary form p {
     border: 0.1px solid rgb(197, 197, 197);
-    width: 95%;
+    width: 365px;
 }
 
 section div.formulary form input[type=button] {
@@ -141,9 +143,9 @@ section div.formulary form input[type=button] {
     font: bolder;
     color: white;
     background-color: rgb(39, 192, 60);
-    height: 15%;
-    margin: 5% 2% 2% 2%;
-    width: 50%;
+    height: 55px;
+    margin: 15px 15px;
+    width: 240px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -159,33 +161,118 @@ footer {
     width: 100%;
 }
 
-footer ul {
+.desktop ul {
     display: flex;
     justify-content: center;
 }
 
-footer li {
+.desktop div li {
     display: inline;
     padding: 1% 3%;
 }
 
-footer div a {
+footer.desktop li a {
     font-size: 18px;
     font: bolder;
     color: rgb(173, 173, 173);
     text-decoration: none;
 }
 
-footer div a:hover {
+footer.desktop li a:hover {
     text-decoration: underline;
 }
 
-footer div a:visited {
+footer.desktop li a:visited {
     text-decoration: none;
 }
 
-footer p {
+footer.desktop p {
+    margin-top: 15px;
     font: 300;
     font-size: 12px;
     text-align: center;
+}
+
+footer.mobile {
+    display: none;
+}
+
+/**media-query**/
+
+@media screen and (max-width:916px) {
+    .w60 {
+        padding: 35px;
+        width: 100%;
+    }
+
+    .w40 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    section div.logo-introduce {
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    section div.text {
+        width: 400px;
+    }
+
+    section div.logo-introduce h1 {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    section div.logo-introduce p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    section div.formulary {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: 450px;
+    }
+
+    footer.desktop {
+        display: none;
+    }
+
+    footer.mobile {
+        display: block;
+    }
+
+    div.button {
+        font-size: 25px;
+        cursor: pointer;
+        color: rgb(151, 151, 151);
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    footer.mobile ul {
+        text-align: center;
+        display: none;
+    }
+
+    footer.mobile li {
+        display: block;
+    }
+
+    footer.mobile li a {
+        display: block;
+        color: aqua;
+        text-decoration: none;
+    }
+
+    footer.mobile p {
+        font-size: 10px;
+        text-align: center;
+    }
 }
