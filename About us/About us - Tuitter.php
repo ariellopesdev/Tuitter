@@ -3,28 +3,50 @@
 <head>
     <title>Tuitter - About us</title>
     <meta charset="utf-8">
-    <link href="../styles.css" rel="stylesheet" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link href="style/font-awesome.min.css" rel="stylesheet">
+    <link href="../style/others.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="palavras-chave, do, meu, site">
+    <meta name="description" content="Descrição do meu website">
+    <meta name="author" content="Ariel Lopes">
 </head>
 
 <body>
-    <h1>Welcome to the new world!</h1><br /><br /><br />
-    <div class="refIndexBlock">
-        <p class="refIndexBlockTitle">About us</p>
-        <p class="refIndex"><a href="..//Main Page/Main Page - Tuitter.php">Login</a></p>
-        <p class="refIndex"><a href="../Contact us/Contact us - Tuitter.php">Contact us</a></p>
-        <p class="refIndex"><a href="../Work with us/Work with us - Tuitter.php">Work with us</a></p>
-        <p class="refIndex"><a href="../Partner Companies/Partner Companies - Tuitter.php">Partner Companies</a></p>
-        <p class="refIndex"><a href="../index.php">Get back to main page</a></p>
-    </div>
-    <p>We are a new company in this country, we are online since 2022, sharing our thougts, dreams, experience with
-        y'all</p>
-    <div class="refIndexBlock">
-        <p class="refIndex"><a href="..//Main Page/Main Page - Tuitter.php">Login</a></p>
-        <p class="refIndex"><a href="../Contact us/Contact us - Tuitter.php">Contact us</a></p>
-        <p class="refIndex"><a href="../Work with us/Work with us - Tuitter.php">Work with us</a></p>
-        <p class="refIndex"><a href="../Partner Companies/Partner Companies - Tuitter.php">Partner Companies</a></p>
-        <p class="refIndex"><a href="../index.php">Get back to main page</a></p>
-    </div>
+    <header>Welcome to the new world!</header>
+    <section class="center">
+        <h1>About us</h1>
+        <p>We are a new company in this country, we are online since 2022, sharing our thougts, dreams, experience with
+            y'all</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro non aperiam quia, incidunt et praesentium ullam possimus eos dignissimos? Rem minus obcaecati ipsa unde culpa vero ipsum ratione aperiam quia!</p>
+    </section><!--center-->
+    <footer class="desktop">
+        <nav class="center">
+            <ul>
+                <li><a href="..//Main Page/Main Page - Tuitter.php">Login</a></li>
+                <li><a href="../Contact us/Contact us - Tuitter.php">Contact us</a></li>
+                <li><a href="../Work with us/Work with us - Tuitter.php">Work with us</a></li>
+                <li><a href="../Partner Companies/Partner Companies - Tuitter.php">Partner Companies</a></li>
+                <li><a href="../index.php">Get back to main page</a></li>
+            </ul>
+        </nav><!--center-->
+        <p>Developed by Ariel Lopes - All rights reserved</p>
+    </footer><!--desktop-->
+    <footer class="mobile">
+        <nav class="center">
+            <div class="button">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div><!--button-->
+            <ul>
+                <li><a href="..//Main Page/Main Page - Tuitter.php">Login</a></li>
+                <li><a href="../Contact us/Contact us - Tuitter.php">Contact us</a></li>
+                <li><a href="../Work with us/Work with us - Tuitter.php">Work with us</a></li>
+                <li><a href="../Partner Companies/Partner Companies - Tuitter.php">Partner Companies</a></li>
+                <li><a href="../index.php">Get back to main page</a></li>
+            </ul>
+        </nav><!--center-->
+        <p>Developed by Ariel Lopes - All rights reserved</p>
+    </footer><!--mobile-->
 </body>
 
 </html>

@@ -257,11 +257,17 @@ footer.mobile {
     }
 
     footer.mobile ul {
+        width: 100%;
         text-align: center;
         display: none;
     }
 
     footer.mobile li {
+        font-weight: 300;
+        width: 100%;
+        background-color: white;
+        border-bottom: 1px solid #ccc;
+        font-size: 17px;
         display: block;
     }
 
