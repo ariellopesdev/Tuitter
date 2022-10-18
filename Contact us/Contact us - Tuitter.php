@@ -3,29 +3,37 @@
         <title>Tuitter - Contact us</title>
         <meta charset="utf-8">
         <meta http-equiv="pragma" content="no-cache" />
-        <link href="style/font-awesome.min.css" rel="stylesheet">
-        <link href="../style/others.css" rel="stylesheet" />
+        <link href="../Style/font-awesome.min.css" rel="stylesheet">
+        <link href="../Style/others.css" rel="stylesheet" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="palavras-chave, do, meu, site">
         <meta name="description" content="Descrição do meu website">
         <meta name="author" content="Ariel Lopes">
     </head>
     <body>
-        <header> Welcome to the new world!</header>
+        <header>
+            <img src="../logoOfficial.png" alt="Company_logo">
+            <h1>
+                Welcome to the new world!
+            </h1>
+        </header>
         <section class="center">
+            <h1>Contact us</h1>
             <div class="info">
-                <p>Send us a message to a complaint, praise, suggestion or work with us</p>
+                <p>Send us a message to a complaint, praise, suggestion or work with us.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos unde libero sint obcaecati praesentium ducimus cupiditate explicabo, quis optio facilis quae, consequatur ad mollitia iure impedit porro, cumque quidem.</p>
             </div><!--info-->
-            <form class="comments">
-                <p>Praise</p>
-                    <textarea name="comments" cols="20" rows="4">Enter your praise...</textarea>
-                <p>Complaint</p>
-                    <textarea name="comments" cols="20" rows="4">Enter your complaint...</textarea>
-                <p>Suggestion</p>
-                    <textarea name="comments" cols="20" rows="4">Enter your suggentions...</textarea>
-            </form><!--comments-->
         </section><!--center-->
+        <section class="comments">
+            <form>
+                <p>Praise:</p>
+                    <textarea name="comments" cols="20" rows="4">Enter your praise...</textarea>
+                <p>Complaint:</p>
+                    <textarea name="comments" cols="20" rows="4">Enter your complaint...</textarea>
+                <p>Suggestion:</p>
+                    <textarea name="comments" cols="20" rows="4">Enter your suggentions...</textarea>
+            </form>
+        </section><!--comments-->
         <footer class="desktop">
             <nav class="center">
                 <ul>

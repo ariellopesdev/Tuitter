@@ -3,28 +3,54 @@
         <title>Tuitter - Work with us</title>
         <meta charset="utf-8">
         <meta http-equiv="pragma" content="no-cache" />
-        <link href="style/font-awesome.min.css" rel="stylesheet">
-        <link href="../style/others.css" rel="stylesheet" />
+        <link href="../Style/font-awesome.min.css" rel="stylesheet">
+        <link href="../Style/others.css" rel="stylesheet" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="palavras-chave, do, meu, site">
         <meta name="description" content="Descrição do meu website">
         <meta name="author" content="Ariel Lopes">
     </head>
     <body>
-        <header>Welcome to the new world!</header>
+        <header>
+            <img src="../logoOfficial.png" alt="Company_logo">
+            <h1>
+                Welcome to the new world!
+            </h1>
+        </header>
         <main class="center">
+            <h1>Work with us</h1>
             <section class="jobs">
-                <h1>Participate of our companie, we have a lot of benefits for our employees</p>
-                <p>Job opportunities</p>
-                <a href="https://www.flaticon.com/br/icones-gratis/trabalhos" title="trabalhos ícones">Trabalhos ícones criados por srip - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/trabalhador" title="trabalhador ícones">Trabalhador ícones criados por Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/trabalhos" title="trabalhos ícones">Trabalhos ícones criados por Eucalyp - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/trabalhos" title="trabalhos ícones">Trabalhos ícones criados por Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/trabalho" title="trabalho ícones">Trabalho ícones criados por Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/trabalhos" title="trabalhos ícones">Trabalhos ícones criados por Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/equipe" title="equipe ícones">Equipe ícones criados por Smashicons - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/carteira-de-identidade" title="carteira de identidade ícones">Carteira de identidade ícones criados por Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/trabalhos" title="trabalhos ícones">Trabalhos ícones criados por Freepik - Flaticon</a>
+                <p>Participate of our companie, we have a lot of benefits for our employees.</p>
+                <div>
+                    <p>Job opportunities:</p>
+                    <div class="work_button">
+                        <i class="fa fa-apple" aria-hidden="true"></i>
+                    </div>
+                    <div class="work_button">
+                        <i class="fa fa-chrome" aria-hidden="true"></i>
+                    </div>
+                    <div class="work_button">
+                        <i class="fa fa-envira" aria-hidden="true"></i>
+                    </div>
+                    <div class="work_button">
+                        <i class="fa fa-gratipay" aria-hidden="true"></i>
+                    </div>
+                    <div class="work_button">
+                        <i class="fa fa-tumblr" aria-hidden="true"></i>
+                    </div>
+                    <div class="work_button">
+                        <i class="fa fa-telegram" aria-hidden="true"></i>
+                    </div>
+                    <div class="work_button">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </div>
+                    <div class="work_button">
+                        <i class="fa fa-wordpress" aria-hidden="true"></i>
+                    </div>
+                    <div class="work_button">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </div>
+                </div>
             </section><!--jobs-->
             <section class="interaction">
                 <form>
@@ -39,7 +65,7 @@
             <nav class="center">
                 <ul>
                     <li><a href="..//Main Page/Main Page - Tuitter.php">Login</a></li>
-                    <li><a href="../About us/About us - Tuitter.php">About us</a>Work with us</a></li>
+                    <li><a href="../About us/About us - Tuitter.php">About us</a></li>
                     <li><a href="../Contact us/Contact us - Tuitter.php">Contact us</a></li>
                     <li><a href="../Partner Companies/Partner Companies - Tuitter.php">Partner Companies</a></li>
                     <li><a href="../index.php">Get back to main page</a></li>

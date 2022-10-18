@@ -7,15 +7,17 @@
 
 /**Boot CSS*/
 
-.center {
+.center,
+.comments {
     max-width: 1366px;
     margin: 0 auto;
 }
 
 /**Estilização**/
-body{
+body {
     background-color: aliceblue;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -38,19 +40,33 @@ header h1 {
     line-height: 60px;
 }
 
-section.center {
+section.center,
+main.center {
     margin-top: 90px;
     width: 1000px;
-    height: 320px;
 }
 
-section.center h1 {
+section.comments {
+    width: 1000px;
+}
+
+section.center h1,
+main.center h1 {
     color: blue;
     font-size: 40px;
     margin-left: 30px;
 }
 
-section.center div{
+main.center section.jobs{
+    background-color: red;
+    height: 700px;
+}
+
+main.center section.interaction{
+    background-color: yellowgreen;
+}
+
+section.center div {
     width: 100%;
     height: 250px;
     display: flex;
@@ -59,80 +75,182 @@ section.center div{
     flex-direction: column;
 }
 
-section.center p {
+section.center p{
     color: #8b8b8b;
     font-size: 20px;
     width: 70%;
     margin-top: 20px;
     text-align: justify;
 }
-footer.desktop{
+section.jobs p{
+    color: #8b8b8b;
+    font-size: 20px;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 20px;
+}
+
+section.center div.info {
+    text-align: justify;
+}
+
+section.center ul.father_icons {
+    margin-bottom: 40px;
+}
+
+section.center ul div.icons {
+    height: 40px;
+    font-size: 35px;
+    color: rgb(97, 97, 255);
+}
+
+section.center ul li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+section.center ul.father_icons li a {
+    font-size: 25px;
+    font: bolder;
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+}
+
+section.center ul.father_icons li a:hover {
+    text-decoration: underline;
+}
+
+section.center ul.father_icons li a:visited {
+    text-decoration: none;
+}
+
+section.comments form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 35px;
+    width: 500px;
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 5px;
+}
+
+section.comments form p {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+}
+
+section.comments form textarea {
+    padding: 7px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    margin: 5px auto 10px auto;
+    width: 470px;
+}
+
+footer.desktop {
     height: 70px;
     margin-bottom: 0;
 }
-footer.desktop ul{
+
+footer.desktop ul {
     display: flex;
     justify-content: center;
 }
-footer.desktop li{
+
+footer.desktop li {
     display: inline;
     padding: 1% 3%;
 }
-footer.desktop li a{
+
+footer.desktop li a {
     font-size: 18px;
     font: bolder;
-    color: rgb(173,173,173);
+    color: rgb(173, 173, 173);
     text-decoration: none;
 }
-footer.desktop li a:hover{
+
+footer.desktop li a:hover {
     text-decoration: underline;
 }
-footer.desktop li a:visited{
+
+footer.desktop li a:visited {
     text-decoration: none;
 }
-footer.desktop p{
+
+footer.desktop p {
     margin-top: 15px;
-    font: 300;
+    font-weight: 300;
     font-size: 12px;
     text-align: center;
 }
-footer.mobile{
+
+footer.mobile {
     display: none;
 }
 
 /**media-query**/
-    @media screen and (max-width:900px){
-    header{
+@media screen and (max-width:900px) {
+    header {
         font-size: 14px;
     }
-    header img{
+
+    header img {
         height: 40px;
         width: 40px;
     }
-    section.center{
+
+    section.center {
         width: 500px;
     }
-    footer.desktop{
+
+    section.comments {
+        width: 100%;
+    }
+
+    section.comments form {
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    section.comments form textarea {
+        width: 90%;
+    }
+
+    footer.desktop {
         display: none;
     }
-    footer.mobile{
-        display:block;
+
+    footer.mobile {
+        display: block;
     }
-    div.button{
+
+    div.button {
+        margin-top: 20px;
         font-size: 25px;
         cursor: pointer;
-        color:  rgb(151, 151, 151);
+        color: rgb(151, 151, 151);
         display: flex;
         align-items: flex-start;
         justify-content: center;
         margin-bottom: 20px;
     }
-    footer.mobile ul{
+
+    footer.mobile ul {
         width: 100%;
         text-align: center;
-        display:none;
+        display: none;
     }
-    footer.mobile li{
+
+    footer.mobile li {
         font-weight: 300;
         width: 100%;
         background-color: white;
@@ -140,14 +258,16 @@ footer.mobile{
         font-size: 17px;
         display: block;
     }
-    footer.mobile li a{
+
+    footer.mobile li a {
         display: block;
         color: aqua;
         text-decoration: none;
     }
-    footer.mobile p{
+
+    footer.mobile p {
         font-size: 10px;
         text-align: center;
     }
-    
+
 }
