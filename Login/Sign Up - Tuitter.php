@@ -1,37 +1,72 @@
 <html>
 
 <head>
-    <title>Create Account - Tuitter</title>
+    <title>Sign Up - Tuitter</title>
     <meta charset="utf-8">
     <meta http-equiv="pragma" content="no-cache" />
-    <link href="style/font-awesome.min.css" rel="stylesheet">
-    <link href="../style/others.css" rel="stylesheet" />
+    <link href="../Style/font-awesome.min.css" rel="stylesheet">
+    <link href="../Style/others.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="palavras-chave, do, meu, site">
     <meta name="description" content="Descrição do meu website">
     <meta name="author" content="Ariel Lopes">
+    <style>
+        section.center form.create_account{
+            width: 60%;
+            margin: 30px auto 30px auto;
+            border: 1px solid blue;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        section.center form.create_account p{
+            padding: 15px 15px 15px 25px ;
+            margin-top: 0px;
+            width: 100%;
+        }
+        section.center form.create_account input,
+        section.center form.create_account select{
+            padding: 15px;
+            margin-top: 20px;
+            width: 85%;
+            height: 40px;
+            color: #8b8b8b;
+            font-size: 20px;
+            border: 1px solid #8b8b8b;
+            border-radius: 5px;
+        }
+        input:focus{/**não está funcionando */
+            border: 1px solid blue;
+            color: blue;
+        }
+        section.center form.create_account select,
+        section.center form.create_account [type=file]{
+            height: 53px !important;
+        }
+        section.center form.create_account [type=checkbox]{
+            font-size: 10px !important;
+        }
+    </style>
 </head>
 
 <body>
-    <header>Welcome to the new world!</header>
+    <header>
+        <img src="../logoOfficial.png" alt="Company_logo">
+        <h1>
+            Welcome to the new world!
+        </h1>
+    </header>
     <section class="center">
+        <h1>Sign Up</h1>
         <form class="create_account">
-            <p>Name:
-                <input type="text" name="name" size="15" maxlength="40">
-            </p>
-            <p>Subname:
-                <input type="text" name="name" size="15" maxlength="40">
-            </p>
-            <p>E-mail:
-                <input type="email" name="email" size="15" maxlength="40">
-            </p>
-            <p>Telephone:
-                <input type="text" name="telephone" size="11" maxlength="11">
-            </p>
-            <p>Password:
-                <input type="password" name="password" size="8" maxlength="8">
-            </p>
-            <p>Birth Date:
+            <input placeholder="Name:" type="text" name="name" size="15" maxlength="40">
+            <input placeholder="Subname:" type="text" name="name" size="15" maxlength="40">
+            <input placeholder="E-mail:" type="email" name="email" size="15" maxlength="40">
+            <input placeholder="Telephone:" type="text" name="telephone" size="11" maxlength="11">
+            <input placeholder="Password:" type="password" name="password" size="8" maxlength="8">
+            <p>Born:
                 <input type="date" name="birth date">
             </p>
             <p>Country:
@@ -59,11 +94,10 @@
                 <input type="file" name="photoProfile">
             </p>
             <p>Interests:
-                <br />
                 <input type="checkbox" name="interests" value="Bussiness" checked="checked" />Bussiness
-                <input type="checkbox" name="interests" value="Bussiness" /> Comunication
-                <input type="checkbox" name="interests" value="Bussiness" /> Friends
-                <input type="checkbox" name="interests" value="Bussiness" /> Relationchips
+                <input type="checkbox" name="interests" value="Comunication" /> Comunication
+                <input type="checkbox" name="interests" value="Friends" /> Friends
+                <input type="checkbox" name="interests" value="Relationchips" />Relationchips
             </p>
             <p><input class="submit" type="submit" name="subscribe" value="Submit"></p>
         </form>

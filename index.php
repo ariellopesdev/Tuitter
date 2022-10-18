@@ -30,7 +30,7 @@
                 <input type="submit" name="subscribe" value="Subscribe">
                 <a href="Login/Uptade Password - Tuitter.php">Did you forgot password?</a>
                 <p></p>
-                <input type="button" name="create.account" value="Create Account">
+                <input type="button" name="sign.up" value="Sign Up">
             </form>
         </div>
         <!--w40 left formulary-->
