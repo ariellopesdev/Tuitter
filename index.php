@@ -25,6 +25,7 @@
         <!--w60 left logo-introduce-->
         <div class="w40 left formulary">
             <form class="right">
+            <i class="fa fa-bars" aria-hidden="true"></i>
                 <input class="email" placeholder="Email" type="email" name="email" size="15" maxlength="40">
                 <input class="email" placeholder="Password" type="password" name="password" size="15" maxlength="40">
                 <input type="submit" name="subscribe" value="Subscribe">
